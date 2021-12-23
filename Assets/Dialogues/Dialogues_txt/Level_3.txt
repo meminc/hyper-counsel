@@ -1,0 +1,15 @@
+Question1;Hi, I need help!
+Question1;Answer1;Listen him;1;Question2
+Question1;Answer2;Say I have another job;Failure
+Question2;I am always sad for everything
+Question2;Answer1;Don't waste your time;Failure
+Question2;Answer2;Ask why;1;Question3
+Question3;I did some dark deeds
+Question3;Answer1;Call The Police;Police
+Question3;Answer2;Say they are left behind;1;Question4
+Question4;What should I do?
+Question4;Answer1;Do positive things!;1;Question5
+Question4;Answer2;Your soul has been lost!;Failure
+Question5;I can help children!
+Question5;Answer1;Do it immediately;Success
+Question5;Answer2;You should imprison yourself;Failure

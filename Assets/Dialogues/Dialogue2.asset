@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0238454240db4804783ad71fc2805bb5, type: 3}
+  m_Name: Dialogue2
+  m_EditorClassIdentifier: 
+  dialogueScript: "Question1;Sana bir sorum var?\r 2\nAnswer1;Sor;10;Question2\r\nAnswer2;Sorma;Failure\r\nQuestion2;Mudur
+    mudur mudur?\r 2\nAnswer1;Mudur mudurdur!;10;Question3\r\nAnswer2;Mudur mudur
+    degildir;0;Question4\r\nQuestion3;Son bir nasihat versene\r 2\nAnswer1;Adamlik
+    parayla olsa borca gir adam ol;Success\r\nAnswer2;Adam olacak adam bakisindan
+    belli olur, o bakis sende yok;Failure\r\nQuestion4;O zaman sen mudursun?\r 2\nAnswer1;Bos
+    yapma cay yap;Failure\r\nAnswer2;Ebendir mudur!;Success"

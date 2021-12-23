@@ -1,0 +1,12 @@
+Question1;Hey Counselor. People Hate Me! Because of I am LGBT Person.
+Question1;Answer1;You Hate LGBT!;Failure
+Question1;Answer2;Zhe Needs Your Help.;1;Question2
+Question2;Thanks. People don’t understand my emotions and always judge me!
+Question2;Answer1;Flirting!!! Fire her;Failure
+Question2;Answer2;Why does she flirt with you men!;1;Question3
+Question3;...
+Question3;Answer1;Ok! Ok! Give advices;1;Question4
+Question3;Answer2;WTF Go and listen;1;Question4
+Question4;My family already died in a traffic and after that I choose my path as emotional.
+Question4;Answer1;Sooo WHAT, I am not a psychologist????;Failure
+Question4;Answer2;Give advice;Success

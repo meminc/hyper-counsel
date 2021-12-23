@@ -1,0 +1,18 @@
+Question1;I need to talk someone
+Question1;Answer1;Listen him;1;Question2
+Question1;Answer2;Trouble Type. Don't Listen;Failure
+Question2;I got cancer counselor
+Question2;Answer1;Nevermind;Failure
+Question2;Answer2;Listen more;1;Question3
+Question3;Also, I sell Somu D*ugs to My Son's Future
+Question3;Answer1;Call The Police;Police
+Question3;Answer2;Gmm Interesting. Listen More Thing;1;Question4
+Question4;Also, I cheat my wife
+Question4;Answer1;You need to get money;1;Question5
+Question4;Answer2;Wow, this is too much. Fire Him;Failure
+Question5;I cheat my wife everyday
+Question5;Answer1;Wow. Ask him how to do that?;1;Question6
+Question5;Answer2;This is disgusting. Fire him!;Failure
+Question6;I am so sarcastic Sir!
+Question6;Answer1;Give gim some advices;Success
+Question6;Answer2;Fire him;Failure
