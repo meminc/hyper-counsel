@@ -95,21 +95,21 @@ public class QuestionMethods : MonoBehaviour
         StartCoroutine(CloseButtons());
         
         _buttonParent.ShowSelection(_id);
-        
-        if (_answer == "Success")
+
+        if (_answer.Contains("Succ"))
         {
             LevelSuccess();
             StartCoroutine(MethodsAfterLevelEnd(true));
             return;
         }
-        if (_answer == "Failure")
+        if (_answer.Contains("Fail"))
         {
             LevelFailure();
             StartCoroutine(MethodsAfterLevelEnd(false));
             return;
         }
 
-        if (_answer == "Police")
+        if (_answer.Contains("Pol"))
         {
             police.ActivatePolice();
             StartCoroutine(MethodsAfterPoliceCome());

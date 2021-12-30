@@ -7,10 +7,12 @@ using UnityEngine;
 public class DialogueScript : MonoBehaviour
 {
     private string[] lines;
+    
+    
 
-    public void ReadLinesFromTxt(string _path)
+    public void ReadLinesFromTxt(Dialogue _dialogue)
     {
-        lines = System.IO.File.ReadAllLines(_path);
+        lines = _dialogue.dialogueScript.Split('\n');
     }
 
     public String ReturnQuestionStr(int index)

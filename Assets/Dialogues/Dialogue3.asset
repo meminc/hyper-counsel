@@ -12,9 +12,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0238454240db4804783ad71fc2805bb5, type: 3}
   m_Name: Dialogue3
   m_EditorClassIdentifier: 
-  dialogueScript: "Question1;Sana bir sorum var?\r 3\nAnswer1;Sor;10;Question2\r\nAnswer2;Sorma;Failure\r\nQuestion2;Mudur
-    mudur mudur?\r 3\nAnswer1;Mudur mudurdur!;10;Question3\r\nAnswer2;Mudur mudur
-    degildir;0;Question4\r\nQuestion3;Son bir nasihat versene\r 3\nAnswer1;Adamlik
-    parayla olsa borca gir adam ol;Success\r\nAnswer2;Adam olacak adam bakisindan
-    belli olur, o bakis sende yok;Failure\r\nQuestion4;O zaman sen mudursun?\r 3\nAnswer1;Bos
-    yapma cay yap;Failure\r\nAnswer2;Ebendir mudur!;Success"
+  dialogueScript: 'Question1;Hi, I need help!
+
+    Question1;Answer1;Listen him;1;Question2
+
+    Question1;Answer2;Say
+    I have another job;Failure
+
+    Question2;I am always sad for everything
+
+    Question2;Answer1;Don''t
+    waste your time;Failure
+
+    Question2;Answer2;Ask why;1;Question3
+
+    Question3;I
+    did some dark deeds
+
+    Question3;Answer1;Call The Police;Police
+
+    Question3;Answer2;Say
+    they are left behind;1;Question4
+
+    Question4;What should I do?
+
+    Question4;Answer1;Do
+    positive things!;1;Question5
+
+    Question4;Answer2;Your soul has been lost!;Failure
+
+    Question5;I
+    can help children!
+
+    Question5;Answer1;Do it immediately;Success
+
+    Question5;Answer2;You
+    should imprison yourself;Failure'

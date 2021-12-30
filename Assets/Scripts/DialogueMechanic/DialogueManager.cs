@@ -29,6 +29,8 @@ public class DialogueManager : MonoBehaviour
     
     private int CURRENT_LEVEL_INDEX = 1;
 
+    [SerializeField] private Dialogue[] dialgues;
+    
     private LevelEndCanvas _endCanvas;
 
     private MoneyAnimScript _moneyAnim;
@@ -36,6 +38,8 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         CURRENT_LEVEL_INDEX = PlayerPrefs.GetInt("CURRENT_LEVEL_INDEX", 1);
+        
+        print(CURRENT_LEVEL_INDEX);
         
         GetTextFilesPath();
         
@@ -45,12 +49,7 @@ public class DialogueManager : MonoBehaviour
 
     void GetTextFilesPath()
     {
-        for (int i = 1; i < NUMBER_OF_LEVEL + 1; i++)
-        {
-            LEVEL_TXT_FILES.Add(LEVEL_TEXT_FILES_PATH + "\\Level_" + i + ".txt");
-        }
-
-        _dialogueScript.ReadLinesFromTxt(LEVEL_TXT_FILES[CURRENT_LEVEL_INDEX-1]);
+        _dialogueScript.ReadLinesFromTxt(dialgues[CURRENT_LEVEL_INDEX - 1]);
     }
 
     public void NextLevel(bool _success)

@@ -9,6 +9,6 @@ public class Dialogue : ScriptableObject
     [Multiline(40)]
     public string dialogueScript;
     
-
+    
     
 }

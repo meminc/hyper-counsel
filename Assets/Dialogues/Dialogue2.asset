@@ -12,9 +12,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0238454240db4804783ad71fc2805bb5, type: 3}
   m_Name: Dialogue2
   m_EditorClassIdentifier: 
-  dialogueScript: "Question1;Sana bir sorum var?\r 2\nAnswer1;Sor;10;Question2\r\nAnswer2;Sorma;Failure\r\nQuestion2;Mudur
-    mudur mudur?\r 2\nAnswer1;Mudur mudurdur!;10;Question3\r\nAnswer2;Mudur mudur
-    degildir;0;Question4\r\nQuestion3;Son bir nasihat versene\r 2\nAnswer1;Adamlik
-    parayla olsa borca gir adam ol;Success\r\nAnswer2;Adam olacak adam bakisindan
-    belli olur, o bakis sende yok;Failure\r\nQuestion4;O zaman sen mudursun?\r 2\nAnswer1;Bos
-    yapma cay yap;Failure\r\nAnswer2;Ebendir mudur!;Success"
+  dialogueScript: 'Question1;I need to talk someone
+
+    Question1;Answer1;Listen
+    him;1;Question2
+
+    Question1;Answer2;Trouble Type. Don''t Listen;Failure
+
+    Question2;I
+    got cancer counselor
+
+    Question2;Answer1;Nevermind;Failure
+
+    Question2;Answer2;Listen
+    more;1;Question3
+
+    Question3;Also, I sell Somu D*ugs to My Son''s Future
+
+    Question3;Answer1;Call
+    The Police;Police
+
+    Question3;Answer2;Gmm Interesting. Listen More Thing;1;Question4
+
+    Question4;Also,
+    I cheat my wife
+
+    Question4;Answer1;You need to get money;1;Question5
+
+    Question4;Answer2;Wow,
+    this is too much. Fire Him;Failure
+
+    Question5;I cheat my wife everyday
+
+    Question5;Answer1;Wow.
+    Ask him how to do that?;1;Question6
+
+    Question5;Answer2;This is disgusting.
+    Fire him!;Failure
+
+    Question6;I am so sarcastic Sir!
+
+    Question6;Answer1;Give
+    gim some advices;Success
+
+    Question6;Answer2;Fire him;Failure'

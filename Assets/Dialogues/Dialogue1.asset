@@ -12,38 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0238454240db4804783ad71fc2805bb5, type: 3}
   m_Name: Dialogue1
   m_EditorClassIdentifier: 
-  dialogueScript: 'Question1;Sana bir sorum var? 1
-
-    Question1;Answer1;Sor;10;Question2
-
-    Question1;Answer2;Sorma;Failure
-
-    Question2;Mudur
-    mudur mudur? 1
-
-    Question2;Answer1;Mudur mudurdur!;10;Question3
-
-    Question2;Answer2;Mudur
-    mudur degildir;0;Question4
-
-    Question3;Son bir nasihat versene 1
-
-    Question3;Answer1;Adamlik
-    parayla olsa borca gir adam ol;Success
-
-    Question3;Answer2;Adam olacak adam
-    bakisindan belli olur, o bakis sende yok;Failure
-
-    Question4;O zaman sen
-    mudursun? 1
-
-    Question4;Answer1;Bos yapma cay yap;10;Question5
-
-    Question4;Answer2;Ebendir
-    mudur!;10;Question5
-
-    Question5;SAAA
-
-    Question5;Answer1;ASSHOLE;Success
-
-    Question5;Answer2;HOLE;Failure'
+  dialogueScript: "Question1;Hey Counselor. People Hate Me! Because of I am LGBT
+    Person.\r\nQuestion1;Answer1;You Hate LGBT!;Failure\r\nQuestion1;Answer2;Zhe
+    Needs Your Help.;1;Question2\r\nQuestion2;Thanks. People don\u2019t understand
+    my emotions and always judge me!\r\nQuestion2;Answer1;Flirting!!! Fire her;Failure\r\nQuestion2;Answer2;Why
+    does she flirt with you men!;1;Question3\r\nQuestion3;...\r\nQuestion3;Answer1;Ok!
+    Ok! Give advices;1;Question4\r\nQuestion3;Answer2;WTF Go and listen;1;Question4\r\nQuestion4;My
+    family already died in a traffic and after that I choose my path as emotional.\r\nQuestion4;Answer1;Sooo
+    WHAT, I am not a psychologist????;Failure\r\nQuestion4;Answer2;Give advice;Success"
